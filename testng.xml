@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="automationPSL">
+  <test name="TestIds">
+  <parameter name="page" value="http://automatizacion.herokuapp.com/pperez/appointmentScheduling"/>
+  <parameter name="date" value="04-12-78hjg2017"/>
+  <parameter name="patientId" value="123123"/>
+  <parameter name="doctorId" value="123123"/>
+  <parameter name="note" value="Cita para odontología"/>
+  
+  <classes>
+   <class name ="Test.Appointment"/>
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

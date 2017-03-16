@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [automationPSL]">
+  <test name="TestIds(failed)">
+    <parameter name="date" value="04-12-78hjg2017"/>
+    <parameter name="note" value="Cita para odontología"/>
+    <parameter name="patientId" value="123123"/>
+    <parameter name="doctorId" value="123123"/>
+    <parameter name="page" value="http://automatizacion.herokuapp.com/pperez/appointmentScheduling"/>
+    <classes>
+      <class name="Test.Appointment">
+        <methods>
+          <include name="formData"/>
+          <include name="validateDateFormat" invocation-numbers="0"/>
+          <include name="validateDateAppoinment" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.Appointment -->
+    </classes>
+  </test> <!-- TestIds(failed) -->
+</suite> <!-- Failed suite [automationPSL] -->
